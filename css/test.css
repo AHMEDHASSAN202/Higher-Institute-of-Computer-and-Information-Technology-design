@@ -1,0 +1,95 @@
+
+header .wrapper-header .box-icons a {
+  height: 100%;
+  width: 30px;
+  font-size: 18px;
+  text-align: center;
+  line-height: 30px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  position: relative;
+  z-index: 1;  }
+
+header .wrapper-header .box-icons a:hover {
+  color: #000;
+}
+
+header .wrapper-header .box-icons a:before,
+header .wrapper-header .box-icons a:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;  }
+
+header .wrapper-header .box-icons a:before {
+  z-index: 3;  }
+
+header .wrapper-header .box-icons a:after {
+  content: '';
+  z-index: 2;
+  -webkit-transition: box-shadow .4s;
+  -moz-transition: box-shadow .4s;
+  -ms-transition: box-shadow .4s;
+  -o-transition: box-shadow .4s;
+  transition: box-shadow .4s;  }
+/* hover on facebook icon */
+header .wrapper-header .box-icons .facebook:after {
+  -webkit-box-shadow: inset 0 0 0 30px #3b5998;
+  -moz-box-shadow: inset 0 0 0 30px #3b5998;
+  box-shadow: inset 0 0 0 30px #3b5998;  }
+header .wrapper-header .box-icons .facebook:hover:after {
+  -webkit-box-shadow: inset 0 0 0 2px #3b5998;
+  -moz-box-shadow: inset 0 0 0 2px #3b5998;
+  box-shadow: inset 0 0 0 2px #3b5998;  }
+
+/* hover on youtube icon */
+header .wrapper-header .box-icons .youtube:after {
+  -webkit-box-shadow: inset 0 0 0 30px #bb0000;
+  -moz-box-shadow: inset 0 0 0 30px #bb0000;
+  box-shadow: inset 0 0 0 30px #bb0000;  }
+header .wrapper-header .box-icons .youtube:hover:after {
+  -webkit-box-shadow: inset 0 0 0 2px #bb0000;
+  -moz-box-shadow: inset 0 0 0 2px #bb0000;
+  box-shadow: inset 0 0 0 2px #bb0000;  }
+
+/* hover on yahoo icon */
+header .wrapper-header .box-icons .yahoo:after {
+  -webkit-box-shadow: inset 0 0 0 30px #7B0099;
+  -moz-box-shadow: inset 0 0 0 30px #7B0099;
+  box-shadow: inset 0 0 0 30px #7B0099;  }
+header .wrapper-header .box-icons .yahoo:hover:after {
+  -webkit-box-shadow: inset 0 0 0 2px #7B0099;
+  -moz-box-shadow: inset 0 0 0 2px #7B0099;
+  box-shadow: inset 0 0 0 2px #7B0099;  }
+
+/* hover on twitter icon */
+header .wrapper-header .box-icons .twitter:after {
+  -webkit-box-shadow: inset 0 0 0 30px #32506d;
+  -moz-box-shadow: inset 0 0 0 30px #32506d;
+  box-shadow: inset 0 0 0 30px #32506d;  }
+header .wrapper-header .box-icons .twitter:hover:after {
+  -webkit-box-shadow: inset 0 0 0 2px #32506d;
+  -moz-box-shadow: inset 0 0 0 2px #32506d;
+  box-shadow: inset 0 0 0 2px #32506d;  }
+
+/* hover on whatsapp icon */
+header .wrapper-header .box-icons .whatsapp:after {
+  -webkit-box-shadow: inset 0 0 0 30px #4dc247;
+  -moz-box-shadow: inset 0 0 0 30px #4dc247;
+  box-shadow: inset 0 0 0 30px #4dc247;  }
+header .wrapper-header .box-icons .whatsapp:hover:after {
+  -webkit-box-shadow: inset 0 0 0 2px #4dc247;
+  -moz-box-shadow: inset 0 0 0 2px #4dc247;
+  box-shadow: inset 0 0 0 2px #4dc247;  }
+
+/* hover on tumblr icon */
+header .wrapper-header .box-icons .tumblr:after {
+  -webkit-box-shadow: inset 0 0 0 30px #3b5998;
+  -moz-box-shadow: inset 0 0 0 30px #3b5998;
+  box-shadow: inset 0 0 0 30px #3b5998;  }
+header .wrapper-header .box-icons .tumblr:hover:after {
+  -webkit-box-shadow: inset 0 0 0 2px #3b5998;
+  -moz-box-shadow: inset 0 0 0 2px #3b5998;
+  box-shadow: inset 0 0 0 2px #3b5998;  }
